@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class Car {
+    
+    var colour : String = "Black"
+    var noOfSeats : Int = 5
+    
+    
+}

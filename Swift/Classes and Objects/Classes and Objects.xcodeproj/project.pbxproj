@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45B2CA0221DFFBFA00D24C0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B2CA0121DFFBFA00D24C0C /* main.swift */; };
+		45B2CA0921DFFC4D00D24C0C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B2CA0821DFFC4D00D24C0C /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		45B2C9FE21DFFBFA00D24C0C /* Classes and Objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classes and Objects"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B2CA0121DFFBFA00D24C0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		45B2CA0821DFFC4D00D24C0C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				45B2CA0121DFFBFA00D24C0C /* main.swift */,
+				45B2CA0821DFFC4D00D24C0C /* Car.swift */,
 			);
 			path = "Classes and Objects";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B2CA0921DFFC4D00D24C0C /* Car.swift in Sources */,
 				45B2CA0221DFFBFA00D24C0C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,8 +248,10 @@
 		45B2CA0621DFFBFA00D24C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -253,8 +259,10 @@
 		45B2CA0721DFFBFA00D24C0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
